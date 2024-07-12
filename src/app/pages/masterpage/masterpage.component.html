@@ -1,0 +1,16 @@
+<main class="d-flex flex-row">
+  <aside class="col-2 p-3">
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+      <a class="nav-link" routerLink="/about" routerLinkActive="active"
+        >About</a
+      >
+      <a class="nav-link" routerLink="/contact" routerLinkActive="active"
+        >Contact</a
+      >
+    </nav>
+  </aside>
+  <div class="flex-grow-1 p-4">
+    <router-outlet></router-outlet>
+  </div>
+</main>
