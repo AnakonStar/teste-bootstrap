@@ -1,5 +1,5 @@
-@import "../../../scss/mixins";
-@import "../../../scss/variables";
+@import "mixins";
+@import "variables";
 
 main {
   width: 100%;
@@ -13,9 +13,5 @@ main {
   aside {
     height: 100svh;
     background-color: $elements-color;
-
-    .nav-link {
-      color: $title-color;
-    }
   }
 }

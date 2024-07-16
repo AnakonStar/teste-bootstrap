@@ -4,3 +4,26 @@
 @import "bootstrap/scss/bootstrap";
 @import "scss/mixins";
 @import "scss/variables";
+
+.nav-pills .nav-link.active {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.nav-pills .nav-link {
+  color: var(--text-color);
+}
+
+.nav-pills .nav-link:hover {
+  animation: navHover 0.3s ease-in-out forwards;
+}
+
+@keyframes navHover {
+  from {
+  }
+  to {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+  }
+}

@@ -7,7 +7,21 @@ $title-color: #dbdbdb;
 $text-color: #c9c9c9;
 $elements-color: #212121;
 
-// FontsSizes
+// FontSizes
 
 $title-font-size: 1.5rem;
 $text-font-size: 1rem;
+
+:root {
+  //Colors
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color};
+  --background-color: #{$background-color};
+  --title-color: #{$title-color};
+  --text-color: #{$text-color};
+  --elements-color: #{$elements-color};
+
+  //FontSizes
+  --title-font-size: #{$title-font-size};
+  --text-font-size: #{$text-font-size};
+}
