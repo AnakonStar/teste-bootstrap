@@ -1,5 +1,10 @@
 @import "mixins";
 
+span,
+p {
+  color: #fff;
+  line-height: 1;
+}
+
 main {
-  @include test;
 }

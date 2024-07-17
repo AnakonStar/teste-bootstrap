@@ -1,1 +1,7 @@
-<p>about works!</p>
+<main class="p-4 rounded-lg d-flex h-100 align-items-center">
+  <ul class="gap-3 d-flex">
+    <li *ngFor="let skill of skills">
+      <app-skill-card [skill]="skill"></app-skill-card>
+    </li>
+  </ul>
+</main>

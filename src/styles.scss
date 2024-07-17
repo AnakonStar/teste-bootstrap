@@ -5,6 +5,31 @@
 @import "scss/mixins";
 @import "scss/variables";
 
+ul li {
+  list-style: none;
+}
+
+.btn {
+  border: 0;
+  padding-inline: 2rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-primary:active,
+.btn-primary:target {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
 .nav-pills .nav-link.active {
   background-color: var(--primary-color);
   color: #fff;
@@ -23,7 +48,7 @@
   from {
   }
   to {
-    background-color: var(--text-color);
+    background-color: #fff;
     color: var(--primary-color);
   }
 }
