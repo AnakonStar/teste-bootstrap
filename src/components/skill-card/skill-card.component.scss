@@ -1,4 +1,4 @@
-main {
+li {
   background-color: var(--elements-color);
   border-radius: 10px;
   border-left: 10px solid var(--primary-color);
@@ -9,6 +9,10 @@ main {
   }
 
   span {
-    color: #fff;
+    color: var(--title-color);
+
+    i {
+      padding-right: 6px;
+    }
   }
 }

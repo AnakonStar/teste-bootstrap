@@ -1,7 +1,9 @@
-<main class="p-4 rounded-lg d-flex h-100 align-items-center">
-  <ul class="gap-3 d-flex">
-    <li *ngFor="let skill of skills">
-      <app-skill-card [skill]="skill"></app-skill-card>
-    </li>
+<main class="p-4 rounded-lg d-flex h-100 flex-column">
+  <h1>Habilidades</h1>
+  <ul class="gap-4 d-grid w-100">
+    <app-skill-card
+      *ngFor="let skill of skills"
+      [skill]="skill"
+    ></app-skill-card>
   </ul>
 </main>

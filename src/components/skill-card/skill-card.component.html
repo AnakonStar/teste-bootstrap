@@ -1,4 +1,10 @@
-<main class="col-6">
-  <span><i class="fa-brands fa-html5 fa-xl"></i> {{ skill.title }}</span>
+<li>
+  <span
+    ><i
+      [class]="icons[skill.title] + ' fa-xl'"
+      [style]="'color:' + cores[skill.title]"
+    ></i>
+    {{ skill.title }}</span
+  >
   <p>{{ skill.description }}</p>
-</main>
+</li>

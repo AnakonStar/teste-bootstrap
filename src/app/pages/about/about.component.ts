@@ -1,7 +1,7 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { SkillCardComponent } from '../../../components/skill-card/skill-card.component';
-import { SkillProps } from '../../../dtos/Skill';
+import { SkillProps } from '../../../shared/models/Skill';
 
 @Component({
   selector: 'app-about',
@@ -18,8 +18,33 @@ export class AboutComponent {
       description: 'Testando algumas coisas',
     },
     {
-      id: 1,
+      id: 2,
       title: 'CSS',
+      description: 'Testando algumas coisas',
+    },
+    {
+      id: 3,
+      title: 'Javascript',
+      description: 'Testando algumas coisas',
+    },
+    {
+      id: 4,
+      title: 'Angular',
+      description: 'Testando algumas coisas',
+    },
+    {
+      id: 5,
+      title: 'React',
+      description: 'Testando algumas coisas',
+    },
+    {
+      id: 6,
+      title: 'Vue',
+      description: 'Testando algumas coisas',
+    },
+    {
+      id: 7,
+      title: 'Node',
       description: 'Testando algumas coisas',
     },
   ];
