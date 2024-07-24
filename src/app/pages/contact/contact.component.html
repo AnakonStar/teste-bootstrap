@@ -1,1 +1,44 @@
-<p>contact works!</p>
+<main class="p-4 rounded-lg d-flex h-100 flex-column">
+  <div class="flex-row d-flex justify-content-between">
+    <div class="col-6">
+      <h1>Contato</h1>
+      <p class="mt-2">
+        Se você deseja entrar em contato direto comigo, preencha o formulário
+        abaixo, para que possamos conversar e nos conhecer.
+      </p>
+      <form class="mt-4">
+        <div class="row">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="mb-3">
+            <label for="tel" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="tel" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="message"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+    <div class="col-6 justify-content-center align-items-start d-flex">
+      <div
+        style="aspect-ratio: 1/1"
+        class="w-75 bg-gradient-primary rounded-circle d-flex justify-content-center align-items-center overflow-hidden p-2"
+      >
+        <img
+          src="assets/bootstrap-logo.png"
+          alt="Logo"
+          class="img-fluid bg-white w-100 h-100 rounded-circle object-fit-cover"
+        />
+      </div>
+    </div>
+  </div>
+</main>

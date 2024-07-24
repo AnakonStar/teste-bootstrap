@@ -3,6 +3,7 @@ li {
   border-radius: 10px;
   border-left: 10px solid var(--primary-color);
   padding: 10px;
+  height: 100%;
 
   p {
     color: var(--text-color);
@@ -14,5 +15,18 @@ li {
     i {
       padding-right: 6px;
     }
+  }
+}
+
+li:hover {
+  animation: scale 0.3s ease-in-out forwards;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
   }
 }

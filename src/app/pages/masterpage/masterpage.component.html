@@ -1,21 +1,25 @@
-<main class="d-flex flex-row">
+<main class="d-flex flex-row h-100">
   <aside class="col-2 p-3">
     <img
       src="assets/bootstrap-logo.png"
       alt="Logo"
-      class="img-fluid rounded-circle"
+      class="img-fluid rounded-circle navbar-brand"
     />
-    <nav class="nav nav-pills flex-column">
-      <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
-      <a class="nav-link" routerLink="/about" routerLinkActive="active"
-        >About</a
-      >
-      <a class="nav-link" routerLink="/contact" routerLinkActive="active"
-        >Contact</a
-      >
+    <nav class="nav nav-pills navbar-vertical navbar">
+      <div class="nav-scroller w-100">
+        <a class="nav-link" routerLink="/home" routerLinkActive="active"
+          ><i class="nav-icon fa fa-home"></i>Home</a
+        >
+        <a class="nav-link" routerLink="/about" routerLinkActive="active"
+          ><i class="nav-icon fa-solid fa-circle-info"></i>About</a
+        >
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active"
+          ><i class="nav-icon fa-solid fa-envelope"></i>Contact</a
+        >
+      </div>
     </nav>
   </aside>
-  <div class="flex-grow-1 p-4">
+  <div class="flex-grow-1 p-4 h-100">
     <router-outlet></router-outlet>
   </div>
 </main>

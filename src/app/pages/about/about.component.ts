@@ -15,17 +15,17 @@ export class AboutComponent {
     {
       id: 1,
       title: 'HTML',
-      description: 'Testando algumas coisas',
+      description: 'Testando algumas coisas algumasalgumas algumas',
     },
     {
       id: 2,
       title: 'CSS',
-      description: 'Testando algumas coisas',
+      description: 'Testando algumas coisas algumasalgumas ',
     },
     {
       id: 3,
       title: 'Javascript',
-      description: 'Testando algumas coisas',
+      description: 'Testando algumas coisasalgumas',
     },
     {
       id: 4,
@@ -35,17 +35,17 @@ export class AboutComponent {
     {
       id: 5,
       title: 'React',
-      description: 'Testando algumas coisas',
+      description: 'Testando algumas coisasalgumasalgumasalgumas',
     },
     {
       id: 6,
       title: 'Vue',
-      description: 'Testando algumas coisas',
+      description: 'Testando algumas coisasalgumasalgumas ',
     },
     {
       id: 7,
       title: 'Node',
-      description: 'Testando algumas coisas',
+      description: 'Testando algumas coisasalgumasalgumas',
     },
   ];
 }

@@ -5,6 +5,17 @@
 @import "scss/mixins";
 @import "scss/variables";
 
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 ul li {
   list-style: none;
 }
@@ -42,6 +53,44 @@ ul li {
 
 .nav-pills .nav-link:hover {
   animation: navHover 0.3s ease-in-out forwards;
+}
+
+h1 {
+  color: var(--title-color);
+}
+
+p,
+span,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+}
+
+.form-label {
+  color: var(--text-color);
+}
+
+.form-control {
+  background-color: var(--elements-color);
+  color: var(--text-color);
+  border: 0;
+}
+
+.form-control.focus {
+  background-color: var(--elements-color);
+  color: var(--text-color);
+  border: 0;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(var(--primary-color), var(--secondary-color));
 }
 
 @keyframes navHover {
